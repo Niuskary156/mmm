@@ -1,0 +1,96 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f9;
+color: #333;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #004aad;
+color: white;
+padding: 20px 0;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 10px 0 0 0;
+}
+
+nav ul li {
+display: inline-block;
+margin: 0 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+text-decoration: underline;
+}
+
+main {
+text-align: center;
+padding: 40px 20px;
+}
+
+main h2 {
+color: #004aad;
+}
+
+footer {
+background-color: #004aad;
+color: white;
+text-align: center;
+padding: 10px 0;
+margin-top: 40px;
+font-size: 0.9em;
+}
+
+/* Calculator Section */
+.calculator {
+background: white;
+padding: 25px;
+max-width: 400px;
+margin: 30px auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.calculator label {
+display: block;
+text-align: left;
+margin-top: 10px;
+font-weight: bold;
+}
+
+input, button {
+width: 100%;
+padding: 10px;
+margin-top: 8px;
+font-size: 1rem;
+}
+
+button {
+background-color: #004aad;
+color: white;
+border: none;
+cursor: pointer;
+margin-top: 15px;
+}
+
+button:hover {
+background-color: #003580;
+}
+
+#result {
+margin-top: 20px;
+color: #004aad;
+font-weight: bold;
+}
